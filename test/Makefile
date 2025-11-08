@@ -5,7 +5,7 @@
 SOURCE_FILES = project.vhdl
 
 # Toplevel name of your VHDL project
-COCOTB_TOPLEVEL = tt_um_example
+COCOTB_TOPLEVEL = tt_um_mastermind
 
 # Common
 WAVES ?= 1
@@ -41,7 +41,7 @@ ifneq ($(GATES),yes)
 SIM_BUILD				= sim_build/rtl
 VERILOG_SOURCES += $(addprefix $(SRC_DIR)/,$(PROJECT_SOURCES))
 
-else
+else	
 
 # Gate level simulation:
 SIM_BUILD				= sim_build/gl
