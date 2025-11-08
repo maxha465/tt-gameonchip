@@ -1,20 +1,11 @@
-<!---
-
-This file is used to generate your project datasheet. Please fill in the information below and delete any unused
-sections.
-
-You can also include images in this folder and reference them in the markdown. Each image must be less than
-512 kb in size, and the combined size of all images must be less than 1 MB.
--->
-
 ## How it works
 
-Explain how your project works
+A simple random number generator assigns random values for the correct "colors" which are then compared to the guesses that the users have made to determine how many "colors" are correct and in the correct position (referred to as correct) as well as how many "colors" are correct but in the wrong position (referred to as half correct).
 
 ## How to test
 
-Explain how to use your project
+Start the program by resetting. Proceed by guessing the correct "color" by guessing four (zero through three) 3-bit binary numbers, then comparing them to the right answers by pressing submit. There are 16 turns to guess the correct "color" combination. You get hints by knowing how many "colors" are correct and how many "colors" are half correct. When the turns counts down to zero, you lose and have to manually reset to be able to play another round. 
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+The game is best enjoyed by connecting seven-segment displays to the outputs of correct, half correct and turns. 
